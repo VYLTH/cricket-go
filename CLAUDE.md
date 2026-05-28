@@ -7,7 +7,7 @@ You have full context on the business, the stack, and the mission.
 
 ## Founder Context
 - Vylth Holdings is a DeFi and financial-intelligence holding company
-- Vylth products: Nexus (SSO), Mint (billing engine), Flow (crypto payment rail), Courier (webhook dispatch), Lighthouse (admin), Agents (HR/ops), Koala (analytics), Northstar (knowledge base), Icarus (PnL tracker), Sage (CEO AI assistant), Signet (wallet KMS), Kricket (DeFi intelligence), Console (strategy gateway), Hummingbird (OSS Solana agent), the trading strategies Alpha, Medusa, Dex Rangers, TarXpools and Decter Classes, and the PV/vylthcore custodial engine behind Vylth Vault
+- Vylth products: Nexus (SSO), Mint (billing engine), Flow (crypto payment rail), Courier (webhook dispatch), Lighthouse (admin), Agents (HR/ops), Koala (analytics), Northstar (knowledge base), Icarus (PnL tracker), Sage (CEO AI assistant), Antgrid (wallet KMS — standalone brand at antgrid.io, silent-parent), Kricket (DeFi intelligence), Console (strategy gateway), Hummingbird (OSS Solana agent), the trading strategies Alpha, Medusa, Dex Rangers, TarXpools and Decter Classes, and the PV/vylthcore custodial engine behind Vylth Vault
 - Future Vylth products, gated on the Scrutiny Engine: Rug-Check API, Vylth Shield, Vylth Aegis, Aru, Accordbase (Sword arm = anti-Upwork talent marketplace + Launchpad RBF venture)
 - Siren, Mailstrel and Kranth are NOT Vylth. They belong to Catalyst Holdings, the founder's separate horizontal-SaaS entity, and act as arm's-length paid vendors to Vylth products.
 - Current sprint: $15K/mo MRR target, 90 days from 2026-04-11

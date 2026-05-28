@@ -1,4 +1,4 @@
-package cricket
+package kricket
 
 import (
 	"context"

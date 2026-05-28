@@ -1,4 +1,4 @@
-package cricket
+package kricket
 
 import (
 	"bytes"
@@ -11,7 +11,7 @@ import (
 	"time"
 )
 
-// apiResponse is the standard envelope returned by Cricket API endpoints.
+// apiResponse is the standard envelope returned by Kricket API endpoints.
 type apiResponse struct {
 	Success bool            `json:"success"`
 	Data    json.RawMessage `json:"data,omitempty"`
@@ -23,7 +23,7 @@ type apiError struct {
 	Message string `json:"message"`
 }
 
-// Error represents an API error from Cricket.
+// Error represents an API error from Kricket.
 type Error struct {
 	Code    string
 	Message string
@@ -31,7 +31,7 @@ type Error struct {
 }
 
 func (e *Error) Error() string {
-	return fmt.Sprintf("cricket: %s — %s (HTTP %d)", e.Code, e.Message, e.Status)
+	return fmt.Sprintf("kricket: %s: %s (HTTP %d)", e.Code, e.Message, e.Status)
 }
 
 // httpClient is the internal HTTP transport used by all sub-clients.

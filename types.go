@@ -1,5 +1,5 @@
-// Package cricket provides a Go client for the Cricket Protocol API.
-package cricket
+// Package kricket provides a Go client for the Kricket Protocol API.
+package kricket
 
 // --- Enums (typed string constants) ---
 

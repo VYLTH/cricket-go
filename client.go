@@ -1,18 +1,18 @@
-package cricket
+package kricket
 
 import "time"
 
-const defaultBaseURL = "https://api.cricket.vylth.com/api/v1"
+const defaultBaseURL = "https://api.kricket.io/api/v1"
 const defaultTimeout = 30 * time.Second
 
-// Config holds configuration for the Cricket client.
+// Config holds configuration for the Kricket client.
 type Config struct {
 	BaseURL string
 	APIKey  string
 	Timeout time.Duration
 }
 
-// Client is the unified entry point for all Cricket Protocol APIs.
+// Client is the unified entry point for all Kricket Protocol APIs.
 type Client struct {
 	Pulse    *PulseClient
 	Mantis   *MantisClient
@@ -21,7 +21,7 @@ type Client struct {
 	Debugger *DebuggerClient
 }
 
-// New creates a new Cricket client with the given configuration.
+// New creates a new Kricket client with the given configuration.
 func New(cfg Config) *Client {
 	if cfg.BaseURL == "" {
 		cfg.BaseURL = defaultBaseURL
